@@ -83,7 +83,7 @@
         <span>Scarb</span>
         <span>Starknet contract</span>
       </div>
-      <a class="btn" href="https://github.com/ululamri/hub/tree/master/examples/starknet/hello_readiness" target="_blank" rel="noreferrer">Lihat Contoh Cairo/Scarb</a>
+      <a class="btn" href="https://github.com/karyra-spark/hub/tree/main/examples/starknet/hello_readiness" target="_blank" rel="noreferrer">Lihat Contoh Cairo/Scarb</a>
     </article>
   </div>
 </section>

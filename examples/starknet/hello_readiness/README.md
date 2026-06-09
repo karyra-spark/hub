@@ -1,6 +1,6 @@
 # Karyra Readiness Anchor — Minimal Starknet Example
 
-This is a small Cairo/Scarb example kept intentionally minimal for the Karyra Spark alpha track.
+This is a small Cairo/Scarb example kept intentionally minimal for the Karyra Spark beta track.
 
 It is not deployed, does not store user data, and does not issue credentials. Its role is to show the direction of the builder-later path: after users understand safety and readiness, Spark/Hub can introduce Cairo, Scarb, Starknet Foundry, and account abstraction gradually.
 
@@ -12,4 +12,4 @@ scarb build
 
 ## Why this exists
 
-Karyra Spark starts as a safety-first readiness gateway for local, non-technical users. This example gives the grant reviewer a concrete signal that the project is beginning to touch Starknet-native tooling without forcing wallet actions on beginners.
+Karyra Spark starts as a safety-first readiness gateway for local, non-technical users. This example gives technical reviewers and contributors a concrete signal that the project is beginning to touch Starknet-native tooling without forcing wallet actions on beginners.

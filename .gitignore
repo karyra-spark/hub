@@ -1,10 +1,53 @@
 node_modules
 .svelte-kit
 build
+dist
 .vercel
 .netlify
+coverage
 .DS_Store
+
+# Environment files
 .env
 .env.*
 !.env.example
-.pass-backups
+
+# Local pass/patch artifacts
+pass-*/
+pass-*.zip
+*.patch
+*.patch.tmp
+.pass-backups/
+.karyra-pass-backups/
+
+# Local helper/scratch files
+helper.txt
+helper-*.txt
+scratch.*
+scratch/
+tmp/
+temp/
+*.log
+*.bak
+*.orig
+*.rej
+*.tmp
+*.swp
+*~
+
+# Local screenshots and ad-hoc exports
+screenshots/
+*.png.local
+*.jpg.local
+*.jpeg.local
+*.webp.local
+
+# Package-manager cross-locks
+package-lock.json
+yarn.lock
+bun.lockb
+npm-shrinkwrap.json
+
+# Editor / OS local state
+.vscode/
+.idea/

@@ -1,8 +1,14 @@
 import { base } from '$app/paths';
 
-const DEFAULT_SPARK_URL = 'https://spark.user.cloudjkt01.com';
+const DEFAULT_SPARK_URL = '/';
 
-export const sparkAppUrl = import.meta.env.PUBLIC_SPARK_APP_URL || DEFAULT_SPARK_URL;
+function normalizeSparkUrl(value: string | undefined) {
+  if (!value) return DEFAULT_SPARK_URL;
+  const trimmed = value.trim();
+  return trimmed || DEFAULT_SPARK_URL;
+}
+
+export const sparkAppUrl = normalizeSparkUrl(import.meta.env.PUBLIC_SPARK_APP_URL);
 
 export function hubPath(path = '/') {
   const normalized = path.startsWith('/') ? path : `/${path}`;
