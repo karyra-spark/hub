@@ -14,9 +14,7 @@ function adapterFallback(basePath) {
 
 const hubBasePath = normalizeBasePath(process.env.PUBLIC_HUB_BASE_PATH ?? '');
 
-const prerenderEntries = hubBasePath
-  ? [hubBasePath, `${hubBasePath}/resources`, `${hubBasePath}/missions`]
-  : ['*'];
+const prerenderEntries = ['/', '/resources', '/missions'];
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
