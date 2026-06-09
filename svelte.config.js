@@ -8,8 +8,8 @@ function normalizeBasePath(value) {
 }
 
 function adapterFallback(basePath) {
-  if (!basePath) return 'index.html';
-  return `${basePath.slice(1)}/index.html`;
+  if (!basePath) return 'spa.html';
+  return `${basePath.slice(1)}/spa.html`;
 }
 
 const hubBasePath = normalizeBasePath(process.env.PUBLIC_HUB_BASE_PATH ?? '');
