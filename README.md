@@ -343,11 +343,5 @@ Keep content additions consistent with the readiness-gating philosophy: every re
 
 ---
 
-## License
-
-This repository does not yet include an explicit license file. Until one is added, all rights remain with the contributors. Please open an issue to discuss terms before reusing or forking this project.
-
----
-
 *Karyra Hub — ecosystem exploration after readiness, not before.*  
 *© 2026 Karyra Spark*
